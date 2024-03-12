@@ -49,7 +49,8 @@ Once the DMS is running, follow these steps to use it:
 2. The DMS will start detecting objects and monitoring the driver's behavior in real-time.
 3. In case of any hazardous behavior detected, the system will issue alerts.
 
-
+## Model Output
+![Image Alt Text](models_output.png)
 
 ## Contributing
 
