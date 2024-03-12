@@ -1,7 +1,5 @@
 # DMS Driver Monitoring System (YOLOv8)
 
-![Owner Avatar](owner_avatar_link)
-
 ## Overview
 
 This repository contains the implementation of a Driver Monitoring System (DMS) using YOLOv8, a state-of-the-art object detection algorithm. The system is designed to detect and monitor the driver's behavior and alert in case of drowsiness, distraction, or other hazardous driving situations.
@@ -10,7 +8,6 @@ This repository contains the implementation of a Driver Monitoring System (DMS) 
 
 - Utilizes YOLOv8 for real-time object detection.
 - Monitors driver behavior including drowsiness and distraction.
-- Alerts the driver in case of potential hazards.
 - Supports integration with various camera feeds.
 - Easy-to-use interface for monitoring and analysis.
 
@@ -44,8 +41,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
-4. Access the DMS interface through a web browser at `http://localhost:5000`.
-
 ## Usage
 
 Once the DMS is running, follow these steps to use it:
@@ -53,6 +48,8 @@ Once the DMS is running, follow these steps to use it:
 1. Ensure that the camera feed is properly configured.
 2. The DMS will start detecting objects and monitoring the driver's behavior in real-time.
 3. In case of any hazardous behavior detected, the system will issue alerts.
+
+
 
 ## Contributing
 
@@ -65,8 +62,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - The implementation of YOLOv8 is based on the work by the original authors.
-- Special thanks to contributors and supporters of the project.
-
----
-
-Feel free to customize this README according to your project's specific details and requirements.
